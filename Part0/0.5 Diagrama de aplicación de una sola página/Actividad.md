@@ -23,12 +23,3 @@ sequenceDiagram
     activate server
     server-->>browser: The data in JSON format.
     deactivate server
-
-    Note right of browser: Si se ingresa una nueva nota ocurre lo siguiente.
-
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
-    activate server
-    server-->>browser: 201 Created
-    deactivate server
-
-    Note right of browser: Como la página es SPA no se recarga toda la página, solo se actualiza el apartado de notas.
