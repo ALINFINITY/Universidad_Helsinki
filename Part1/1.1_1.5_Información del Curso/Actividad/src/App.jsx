@@ -36,7 +36,7 @@ function Total(props){
   return(
     <>
     <h2>Número total de ejercicios</h2>
-    <p>El número total de ejercicios para este curso es de {n.num} ejercicios</p>
+    <p>El número total de ejercicios para este curso es de {n} ejercicios</p>
     </>
   )
 }
