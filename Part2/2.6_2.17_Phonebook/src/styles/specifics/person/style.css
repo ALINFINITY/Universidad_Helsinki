@@ -1,0 +1,11 @@
+.my-card{
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgb(10, 231, 120);
+    border-radius: 20px;
+    padding: 4px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+    

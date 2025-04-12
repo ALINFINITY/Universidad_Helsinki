@@ -1,0 +1,4 @@
+@import './general/App.css';
+@import './general/index.css';
+
+@import './specifics/person/style.css'
